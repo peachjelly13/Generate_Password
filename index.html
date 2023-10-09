@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet"  href="style.css"/>
+  <body>
+    <div class="header">
+      <div>
+        <p id="p1">
+Generate a
+        </p>
+        <p id="p2">
+random password
+        </p>
+        <p id="p3">
+          Never use an insecure password again
+        </p>
+        <button class="btn" onclick="generatepassword1()">Generate Password</button>
+        <p class="border">
+
+        </p>
+        <p id="p4">
+          Two new passwords are given below.
+        </p>
+      </div>
+      <div class="downcontent">
+        <input type="text" name="lefttext" id="lefttext"/>
+        <img src="copy.png" class="img" onclick="copypassword1()"/>
+        <input type="text" name="righttext" id="righttext"/>
+          <img src="copy.png" class="img1" onclick="copypassword2()"/>
+      </div>
+
+    </div>
+<script src="app.js"></script>
+  </body>
+</html>
